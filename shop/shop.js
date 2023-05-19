@@ -1,7 +1,7 @@
-var shopItemImages = ["branch-logo.png", "branch-logo.png", "branch-logo.png", "branch-logo.png", "branch-logo.png"];
+var shopItemIds = ["shop-item-1", "shop-item-2", "shop-item-3", "shop-item-4", "shop-item-5"];
 
 loadShopItems() {
-  for(var i = 0; i < shopItemImages.length; i++) {
+  for(var i = 0; i < shopItemIds.length; i++) {
     
   }
 }
