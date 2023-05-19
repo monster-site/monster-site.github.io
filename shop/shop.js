@@ -11,6 +11,16 @@ var shopItemIds = ["shop-item-1", "shop-item-2", "shop-item-3", "shop-item-4", "
 
 loadShopItems() {
   for(var i = 0; i < shopItemIds.length; i++) {
-    
+    const name = data[i]["name"];
+    const image = data[i]["image"];
+    const text = data[i]["text"];
+    const price = data[i]["price"];
+    import("/item.js").then((itemModule) => {
+      var item = new Item(name, image, text, price);
+      const element = document.getElementById(shopItemIds[i]);
+      element.src = image;
+    });
   }
 }
+
+document.addEventListener("DOMContentLoaded", loadShopItems);
