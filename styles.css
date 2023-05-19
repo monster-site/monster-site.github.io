@@ -29,4 +29,5 @@ h1 {
 footer {
     bottom: 0px;
     position: absolute;
+    text-align: center;
 }
