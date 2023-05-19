@@ -31,3 +31,9 @@ footer {
     position: absolute;
     text-align: center;
 }
+
+#contact-us {
+    display:block;
+    width:100px;
+    margin:0 auto;
+}
