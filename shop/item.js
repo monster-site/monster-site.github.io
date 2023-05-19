@@ -1,7 +1,13 @@
 export class Item {
-  constructor(image, text) {
+  constructor(name, image, text, price) {
+    this.name = name;
     this.image = image;
     this.text = text;
+    this.price = price;
+  }
+  
+  getName() {
+    return this.name;
   }
   
   getImage() {
@@ -10,5 +16,9 @@ export class Item {
   
   getText() {
     return this.text;
+  }
+  
+  getPrice() {
+    return this.price;
   }
 }
