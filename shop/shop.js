@@ -7,23 +7,19 @@ const data = [
   {name: "Item 6", image: "branch-logo.png", text: "Details for item 6", price: "$60"},
 ];
 
-var shopItemIds = ["shop-item-1", "shop-item-2", "shop-item-3", "shop-item-4", "shop-item-5", "shop-item-6"];
+var shopItemIds = ["shop-image-1", "shop-image-2", "shop-image-3", "shop-image-4", "shop-image-5", "shop-image-6"];
 
 function loadShopItems() {
   for(var i = 0; i < shopItemIds.length; i++) {
-    (function (i) {
     const name = data[i]["name"];
     const image = data[i]["image"];
     const text = data[i]["text"];
     const price = data[i]["price"];
     import("/shop/item.js").then((itemModule) => {
       var item = new itemModule.Item(name, image, text, price);
-      console.log(i);
-      console.log(shopItemIds[i]);
       const element = document.getElementById(shopItemIds[i]);
       element.src = image;
     });
-   }).call(this, i);
   }
 }
 
