@@ -7,7 +7,6 @@ const data = [
   {name: "Item 6", image: "branch-logo.png", text: "Details for item 6", price: "$60"},
 ];
 
-var shopItemIds = ["shop-image-1", "shop-image-2", "shop-image-3", "shop-image-4", "shop-image-5", "shop-image-6"];
 
 function loadImage(id) {
   const name = data[i]["name"];
@@ -18,7 +17,7 @@ function loadImage(id) {
     var item = new itemModule.Item(name, image, text, price);
     const element = document.getElementById(id);
     element.src = image;
-  }
+  });
 }
 
 function loadShopItems() {
