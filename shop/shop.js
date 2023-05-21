@@ -9,23 +9,26 @@ const data = [
 
 var shopItemIds = ["shop-image-1", "shop-image-2", "shop-image-3", "shop-image-4", "shop-image-5", "shop-image-6"];
 
-function loadShopItems() {
-  for(var i = 0; i < shopItemIds.length; i++) {
-      (function (i) {
-    const name = data[i]["name"];
-    const image = data[i]["image"];
-    const text = data[i]["text"];
-    const price = data[i]["price"];
-    import("/shop/item.js").then((itemModule) => {
-      console.log(name);
-      var item = new itemModule.Item(name, image, text, price);
-      const element = document.getElementById(shopItemIds[i]);
-      console.log(i);
-      console.log(shopItemIds[i]);
-      element.src = image;
-          }).call(this, i);
-    });
+function loadImage(id) {
+  const name = data[i]["name"];
+  const image = data[i]["image"];
+  const text = data[i]["text"];
+  const price = data[i]["price"];
+  import("/shop/item.js").then((itemModule) => {
+    var item = new itemModule.Item(name, image, text, price);
+    const element = document.getElementById(id);
+    element.src = image;
   }
+}
+
+function loadShopItems() {
+  loadImage("shop-image-1");
+  loadImage("shop-image-2");
+  loadImage("shop-image-3");
+  loadImage("shop-image-4");
+  loadImage("shop-image-5");
+  loadImage("shop-image-6");
+
 }
 
 document.addEventListener("DOMContentLoaded", loadShopItems);
