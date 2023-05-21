@@ -20,12 +20,12 @@ function loadImage(id, index) {
 }
 
 function loadShopItems() {
-  loadImage("shop-image-1", 1);
-  loadImage("shop-image-2", 2);
-  loadImage("shop-image-3", 3);
-  loadImage("shop-image-4", 4);
-  loadImage("shop-image-5", 5);
-  loadImage("shop-image-6", 6);
+  loadImage("shop-image-1", 0);
+  loadImage("shop-image-2", 1);
+  loadImage("shop-image-3", 2);
+  loadImage("shop-image-4", 3);
+  loadImage("shop-image-5", 4);
+  loadImage("shop-image-6", 5);
 
 }
 
