@@ -16,8 +16,11 @@ function loadShopItems() {
     const text = data[i]["text"];
     const price = data[i]["price"];
     import("/shop/item.js").then((itemModule) => {
+      console.log(name);
       var item = new itemModule.Item(name, image, text, price);
       const element = document.getElementById(shopItemIds[i]);
+      console.log(i);
+      console.log(shopItemIds[i]);
       element.src = image;
     });
   }
