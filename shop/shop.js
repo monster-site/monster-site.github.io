@@ -7,12 +7,11 @@ const data = [
   {name: "Item 6", image: "branch-logo.png", text: "Details for item 6", price: "$60"},
 ];
 
-
 function loadImage(id, index) {
-  const name = data[i]["name"];
-  const image = data[i]["image"];
-  const text = data[i]["text"];
-  const price = data[i]["price"];
+  const name = data[index]["name"];
+  const image = data[index]["image"];
+  const text = data[index]["text"];
+  const price = data[index]["price"];
   import("/shop/item.js").then((itemModule) => {
     var item = new itemModule.Item(name, image, text, price);
     const element = document.getElementById(id);
