@@ -16,7 +16,7 @@ function loadShopItems() {
     const text = data[i]["text"];
     const price = data[i]["price"];
     import("/shop/item.js").then((itemModule) => {
-      var item = new Item(name, image, text, price);
+      var item = new itemModule.Item(name, image, text, price);
       const element = document.getElementById(shopItemIds[i]);
       element.src = image;
     });
