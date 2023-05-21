@@ -10,8 +10,8 @@ const data = [
 var shopItemIds = ["shop-image-1", "shop-image-2", "shop-image-3", "shop-image-4", "shop-image-5", "shop-image-6"];
 
 function loadShopItems() {
-  (function (i) {
   for(var i = 0; i < shopItemIds.length; i++) {
+      (function (i) {
     const name = data[i]["name"];
     const image = data[i]["image"];
     const text = data[i]["text"];
@@ -23,8 +23,8 @@ function loadShopItems() {
       console.log(i);
       console.log(shopItemIds[i]);
       element.src = image;
+          }).call(this, i);
     });
-    }).call(this, i);
   }
 }
 
