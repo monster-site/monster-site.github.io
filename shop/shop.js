@@ -11,6 +11,7 @@ var shopItemIds = ["shop-item-1", "shop-item-2", "shop-item-3", "shop-item-4", "
 
 function loadShopItems() {
   for(var i = 0; i < shopItemIds.length; i++) {
+    (function (i) {
     const name = data[i]["name"];
     const image = data[i]["image"];
     const text = data[i]["text"];
@@ -22,6 +23,7 @@ function loadShopItems() {
       const element = document.getElementById(shopItemIds[i]);
       element.src = image;
     });
+   }).call(this, i);
   }
 }
 
