@@ -42,7 +42,7 @@ footer {
     transform: translate(-50%);
 }
 
-p {
+p, label {
     text-align: center;
     font-size: 3em;
 }
@@ -51,7 +51,7 @@ body {
   font-size: 100%;
 }
 
-button{
+button, input{
     display:flex;
     height:50px;
     width:350px;
