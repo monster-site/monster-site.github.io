@@ -39,4 +39,7 @@ footer {
     margin:0 auto;
 }
 
-body { width: 50%; margin: 0 auto;}
+.center { 
+    width: 50%; 
+    margin: 0 auto;
+}
