@@ -60,3 +60,7 @@ button {
 body {
   font-size: 100%;
 }
+
+#signed-out, #signed-in {
+    top: 60%;
+}
