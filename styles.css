@@ -62,6 +62,5 @@ body {
 }
 
 #signed-out, #signed-in {
-    position: absolute;
-    top: 60%;
+    margin-top: 50%;
 }
