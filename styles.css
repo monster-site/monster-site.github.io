@@ -62,5 +62,5 @@ body {
 }
 
 #signed-out, #signed-in {
-    top: 60%;
+    display:block;
 }
