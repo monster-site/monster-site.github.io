@@ -65,3 +65,10 @@ button, input{
   margin-left: auto;
   margin-right: auto;
 }
+
+a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+}
