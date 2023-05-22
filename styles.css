@@ -68,5 +68,6 @@ button, input{
 
 #forgot-password {
     text-align: center;
-    font-size: 1.5em;
 }
+
+a {font-size: 100px}
