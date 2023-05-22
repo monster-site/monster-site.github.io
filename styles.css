@@ -44,11 +44,14 @@ footer {
 
 p {
     text-align: center;
+    font-size: 3em;
 }
 
 button {
     margin:0 auto;
     display:block;
+    width:20%;
+    height:10%;
 }
 
 body {
