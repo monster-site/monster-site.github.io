@@ -71,6 +71,8 @@ body {
     justify-content:center;
     align-items:center;
     font-size: 2em;
+    border-radius: 8px;
+    border-color: #d3d3d3;
 }
 
 #profile-image {
