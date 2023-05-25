@@ -58,8 +58,9 @@ button, input{
     justify-content:center;
     align-items:center;
     font-size: 2em;
-    border-radius: 50%;
-    color: #00B4C4;
+    border-radius: 30%;
+    background-color: #00B4C4;
+    color: white;
 }
 
 #profile-image {
