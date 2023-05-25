@@ -86,7 +86,11 @@ body {
     text-align: center;
 }
 
-a {font-size: 30px}
+a {
+    font-size: 30px;
+    text-decoration:none;
+    color: #00B4C4;
+}
 
 .monster-image {
     border-radius: 24px;
