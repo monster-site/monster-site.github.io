@@ -60,6 +60,11 @@ button, input{
     font-size: 2em;
 }
 
+button {
+    border-radius: 50%;
+    color: #00B4C4;
+}
+
 #profile-image {
   display: block;
   margin-left: auto;
