@@ -53,14 +53,13 @@ body {
 
 .monster-site-button {
     display:flex;
-    height:50px;
-    width:350px;
     justify-content:center;
     align-items:center;
     font-size: 2em;
-    border-radius: 40%;
+    border-radius: 50%;
     background-color: #00B4C4;
     color: white;
+    border: none;
 }
 
 .monster-site-input-field {
