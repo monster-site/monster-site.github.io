@@ -53,6 +53,8 @@ body {
 
 .monster-site-button {
     display:flex;
+    height:100px;
+    width:300px;
     justify-content:center;
     align-items:center;
     font-size: 2em;
