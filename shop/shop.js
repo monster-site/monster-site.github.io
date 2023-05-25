@@ -28,7 +28,8 @@ function loadShopItems() {
   loadImage("shop-image-4", 3);
   loadImage("shop-image-5", 4);
   loadImage("shop-image-6", 5);
-
+  loadImage("shop-image-7", 6);
+  loadImage("shop-image-8", 7);
 }
 
 document.addEventListener("DOMContentLoaded", loadShopItems);
