@@ -96,3 +96,7 @@ a {
 .monster-image {
     border-radius: 24px;
 }
+
+.center-text {
+    text-align: center;
+}
