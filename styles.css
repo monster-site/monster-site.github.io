@@ -36,7 +36,8 @@ footer {
 
 .center { 
   margin: auto;
-  width: 50%;
+  width: 40%;
+  display: block;
 }
 
 p, label {
