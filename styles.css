@@ -73,12 +73,6 @@ body {
     border-color: #d3d3d3;
 }
 
-#profile-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #forgot-password {
     text-align: center;
 }
