@@ -94,11 +94,3 @@ a {
     width: 150px;
     height: 150px;
 }
-
-form {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    width: 80%;
-}
