@@ -96,8 +96,9 @@ a {
 }
 
 form {
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    width: 80%;
 }
