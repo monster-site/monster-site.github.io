@@ -99,11 +99,12 @@ a {
 }
 
 .monster-site-header-button {
-    height:5px;
-    width:50px;
+    height:10px;
+    width:60px;
     font-size: 1.5em;
     border-radius: 50px;
     background-color: #00B4C4;
     color: white;
     border: none;
+    text-align: center;
 }
