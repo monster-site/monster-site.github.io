@@ -79,6 +79,7 @@ body {
 }
 
 a {
+    font-size: 25px;
     text-decoration:none;
     color: #00B4C4;
 }
@@ -90,7 +91,7 @@ a {
 
 .center-text {
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #profile-image {
