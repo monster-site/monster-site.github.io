@@ -125,12 +125,18 @@ h2 {
 
 .monster-badge {
     text-align: left;
+    width:10%;
+    word-wrap: break-word;
 }
 
 .monster-title {
     text-align: left;
+    width:20%;
+    word-wrap: break-word;
 }
 
 .monster-description {
     text-align: left;
+    width:20%;
+    word-wrap: break-word;
 }
