@@ -1,12 +1,12 @@
 const data = [
-  {name: "Item 1", image: "A_blue.png", text: "Details for item 1", price: "$10"},
-  {name: "Item 2", image: "B_pink.png", text: "Details for item 2", price: "$20"},
-  {name: "Item 3", image: "C_green.png", text: "Details for item 3", price: "$30"},
-  {name: "Item 4", image: "D_orange.png", text: "Details for item 4", price: "$40"},
-  {name: "Item 5", image: "E_teal.png", text: "Details for item 5", price: "$50"},
-  {name: "Item 6", image: "F_purple.png", text: "Details for item 6", price: "$60"},
-  {name: "Item 7", image: "G_yellow.png", text: "Details for item 6", price: "$60"},
-  {name: "Item 8", image: "H_red.png", text: "Details for item 6", price: "$60"}
+  {name: "Monster 1", image: "A_blue.png", color: "#"},
+  {name: "Monster 2", image: "B_pink.png", color: "#"},
+  {name: "Monster 3", image: "C_green.png", color: "#"},
+  {name: "Monster 4", image: "D_orange.png", color: "#"},
+  {name: "Monster 5", image: "E_teal.png", color: "#"},
+  {name: "Monster 6", image: "F_purple.png", color: "#"},
+  {name: "Monster 7", image: "G_yellow.png", color: "#"},
+  {name: "Monster 8", image: "H_red.png", color: "#"}
 ];
 
 function loadImage(id, index) {
