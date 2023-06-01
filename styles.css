@@ -138,6 +138,7 @@ h2 {
     word-wrap: break-word;
     margin-left: 50px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .monster-description {
@@ -145,5 +146,5 @@ h2 {
     width:50%;
     word-wrap: break-word;
     margin-left: 50px;
-    font-size: 20px;
+    font-size: 18px;
 }
