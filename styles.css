@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 .topnav {
     overflow: hidden;
 }
@@ -41,6 +43,7 @@ p, label {
 body {
   font-size: 100%;
   background-color: #f5f6fc;
+  font-family: 'Raleway';
 }
 
 .monster-site-button {
@@ -111,12 +114,11 @@ h2 {
     font-size: 72px;
     text-align: left;
     margin-left: 50px;
-    margin-top: 150px;
+    margin-top: 300px;
 }
 
 #home-description-text {
     font-size: 35px;
     text-align: left;
     margin-left: 50px;
-    margin-top: 150px;
 }
