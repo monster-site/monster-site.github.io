@@ -21,7 +21,7 @@ function loadImage(id, index, badgeId) {
     const badge = document.getElementById(badgeId);
     badge.style.color = textcolor;
     badge.style.backgroundColor = color;
-    badge.style.borderRadius = "5px";
+    badge.style.borderRadius = "15px";
   });
 }
 
