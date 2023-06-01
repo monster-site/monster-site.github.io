@@ -122,3 +122,15 @@ h2 {
     text-align: left;
     margin-left: 50px;
 }
+
+.monster-badge {
+    text-align: left;
+}
+
+.monster-title {
+    text-align: left;
+}
+
+.monster-description {
+    text-align: left;
+}
