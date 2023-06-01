@@ -1,9 +1,9 @@
 export class Item {
-  constructor(name, image, text, price) {
+  constructor(name, image, color, textcolor) {
     this.name = name;
     this.image = image;
-    this.text = text;
-    this.price = price;
+    this.color = color;
+    this.textcolor = textcolor;
   }
   
   getName() {
@@ -14,11 +14,11 @@ export class Item {
     return this.image;
   }
   
-  getText() {
-    return this.text;
+  getColor() {
+    return this.color;
   }
   
-  getPrice() {
-    return this.price;
+  getTextColor() {
+    return this.textcolor;
   }
 }
