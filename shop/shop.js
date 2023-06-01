@@ -9,7 +9,7 @@ const data = [
   {name: "Monster 8", image: "H_red.png", color: "#e3d3d8", textcolor: "#912629"}
 ];
 
-function loadImage(id, index) {
+function loadImage(id, index, badgeId) {
   const name = data[index]["name"];
   const image = data[index]["image"];
   const color = data[index]["color"];
@@ -22,7 +22,7 @@ function loadImage(id, index) {
 }
 
 function loadShopItems() {
-  loadImage("monster-image-1", 0);
+  loadImage("monster-image-1", 0, );
   loadImage("monster-image-2", 1);
   loadImage("monster-image-3", 2);
   loadImage("monster-image-4", 3);
