@@ -134,7 +134,8 @@ h2 {
     text-transform: uppercase;
     font-size: 12px;
     display: inline;
-    padding: 5px;
+    padding: 15px;
+    margin-top: 5px;
 }
 
 .monster-title {
