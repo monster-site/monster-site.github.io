@@ -18,18 +18,22 @@ function loadImage(id, index, badgeId) {
     var item = new itemModule.Item(name, image, color, textcolor);
     const element = document.getElementById(id);
     element.src = image;
+    const badge = document.getElementById(badgeId);
+    badge.style.color = textcolor;
+    badge.style.backgroundColor = color;
+    badge.style.borderRadius = "5px";
   });
 }
 
 function loadShopItems() {
-  loadImage("monster-image-1", 0, );
-  loadImage("monster-image-2", 1);
-  loadImage("monster-image-3", 2);
-  loadImage("monster-image-4", 3);
-  loadImage("monster-image-5", 4);
-  loadImage("monster-image-6", 5);
-  loadImage("monster-image-7", 6);
-  loadImage("monster-image-8", 7);
+  loadImage("monster-image-1", 0, "monster-badge-1");
+  loadImage("monster-image-2", 1, "monster-badge-2");
+  loadImage("monster-image-3", 2, "monster-badge-3");
+  loadImage("monster-image-4", 3, "monster-badge-4");
+  loadImage("monster-image-5", 4, "monster-badge-5");
+  loadImage("monster-image-6", 5, "monster-badge-6");
+  loadImage("monster-image-7", 6, "monster-badge-7");
+  loadImage("monster-image-8", 7, "monster-badge-8");
 }
 
 document.addEventListener("DOMContentLoaded", loadShopItems);
