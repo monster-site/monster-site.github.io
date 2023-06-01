@@ -12,10 +12,10 @@ const data = [
 function loadImage(id, index) {
   const name = data[index]["name"];
   const image = data[index]["image"];
-  const text = data[index]["text"];
-  const price = data[index]["price"];
+  const color = data[index]["color"];
+  const textcolor = data[index]["textcolor"];
   import("/shop/item.js").then((itemModule) => {
-    var item = new itemModule.Item(name, image, text, price);
+    var item = new itemModule.Item(name, image, color, textcolor);
     const element = document.getElementById(id);
     element.src = image;
   });
