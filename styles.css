@@ -134,11 +134,10 @@ h2 {
 
 .monster-title {
     text-align: left;
-    width:50%;
     word-wrap: break-word;
     margin-left: 50px;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .monster-description {
