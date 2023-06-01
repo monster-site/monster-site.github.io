@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:600,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900');
 
 .topnav {
     overflow: hidden;
@@ -137,7 +137,7 @@ h2 {
     word-wrap: break-word;
     margin-left: 50px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .monster-description {
