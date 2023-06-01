@@ -23,13 +23,13 @@ function loadImage(id, index) {
 
 function loadShopItems() {
   loadImage("monster-image-1", 0);
-  loadImage("shop-image-2", 1);
-  loadImage("shop-image-3", 2);
-  loadImage("shop-image-4", 3);
-  loadImage("shop-image-5", 4);
-  loadImage("shop-image-6", 5);
-  loadImage("shop-image-7", 6);
-  loadImage("shop-image-8", 7);
+  loadImage("monster-image-2", 1);
+  loadImage("monster-image-3", 2);
+  loadImage("monster-image-4", 3);
+  loadImage("monster-image-5", 4);
+  loadImage("monster-image-6", 5);
+  loadImage("monster-image-7", 6);
+  loadImage("monster-image-8", 7);
 }
 
 document.addEventListener("DOMContentLoaded", loadShopItems);
