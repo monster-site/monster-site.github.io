@@ -22,7 +22,7 @@ function loadImage(id, index) {
 }
 
 function loadShopItems() {
-  loadImage("shop-image-1", 0);
+  loadImage("monster-image-1", 0);
   loadImage("shop-image-2", 1);
   loadImage("shop-image-3", 2);
   loadImage("shop-image-4", 3);
