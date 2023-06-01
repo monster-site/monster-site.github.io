@@ -147,3 +147,7 @@ h2 {
     margin-left: 50px;
     font-size: 18px;
 }
+
+.monster {
+    display: inline-block;
+}
