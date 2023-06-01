@@ -106,3 +106,15 @@ a {
 h2 {
   font-size: 30px;
 }
+
+#home-title-text {
+    font-size: 72px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#home-description-text {
+    font-size: 35px;
+    text-align: left;
+    margin-left: 50px;
+}
