@@ -2,7 +2,10 @@ var name = "";
 var username = "";
 
 function handleAccountCreated() {
-  //hide the create account div
+  name = document.getElementById("create-name").value;
+  username = document.getElementById("create-username").value;
+  window.location.href = "https://monster-site.github.io/profile/user.html";
+  
   //set name
   //set password
   //show detail view div
