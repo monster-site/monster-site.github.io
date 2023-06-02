@@ -173,8 +173,10 @@ h2 {
 }
 
 #qr-code {
-  display: block;
-  margin: auto;
   width: 80%;
   height: 80%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
