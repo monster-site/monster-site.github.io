@@ -157,3 +157,7 @@ h2 {
     width: 300px;
     margin-left: 15px;
 }
+
+#qr-code {
+    float: right;
+}
