@@ -116,7 +116,6 @@ h2 {
     margin-left: 50px;
     margin-top: 300px;
     float: left;
-    position: inline-block;
 }
 
 #home-description-text {
@@ -124,7 +123,6 @@ h2 {
     text-align: left;
     margin-left: 50px;
     float: left;
-    position: inline-block;
 }
 
 .monster-image {
