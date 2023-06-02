@@ -12,12 +12,10 @@ function handleUserLoggedIn() {
 }
 
 function onProfileLoaded() {
-  console.log("hit");
   if(!window.name && !window.username) {
-    console.log("hit 1");
     return;
   }
-  else if(name) {
+  else if(window.name) {
     document.getElementById("profile-header-text").value = "Hello, " + window.name + "!";
   } else {
     document.getElementById("profile-header-text").value = "Hello, " + window.username + "!";
