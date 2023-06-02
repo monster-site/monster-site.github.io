@@ -15,7 +15,9 @@ function handleUserLoggedIn() {
 }
 
 function onProfileLoaded() {
+  console.log("hit");
   if(!name && !username) {
+    console.log("hit 1");
     return;
   }
   else if(name) {
