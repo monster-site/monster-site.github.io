@@ -164,4 +164,6 @@ h2 {
 
 .right {
     float: right;
+    margin-right: 100px;
+    margin-top: 200px;
 }
