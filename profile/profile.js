@@ -5,11 +5,13 @@ function handleAccountCreated() {
   name = document.getElementById("create-name").value;
   username = document.getElementById("create-username").value;
   window.location.href = "https://monster-site.github.io/profile/user.html";
+  return false;
 }
 
 function handleUserLoggedIn() {
   username = document.getElementById("username").value;
   window.location.href = "https://monster-site.github.io/profile/user.html";
+  return false;
 }
 
 function onProfileLoaded() {
