@@ -160,5 +160,5 @@ h2 {
 
 #qr-code {
     float: right;
-    position: inline-block;
+    position: inline;
 }
