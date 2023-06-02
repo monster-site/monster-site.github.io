@@ -13,7 +13,10 @@ function handleUserLoggedIn() {
 }
 
 function onProfileLoaded() {
-  if(name) {
+  if(!name && !username) {
+    return;
+  }
+  else if(name) {
     document.getElementById("profile-header-text").value = "Hello, " + name + "!";
   } else {
     document.getElementById("profile-header-text").value = "Hello, " + username + "!";
