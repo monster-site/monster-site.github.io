@@ -29,7 +29,7 @@ function logout() {
 function onProfileLoaded() {
   console.log("name: " + window.name);
   console.log("username: " + window.username);
-  if(!window.name) {
+  if(!window.name && !window.username) {
     return;
   }
   else if(window.name) {
