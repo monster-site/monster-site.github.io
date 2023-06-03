@@ -14,6 +14,7 @@ function handleUserLoggedIn() {
 function showSignedInView() {
   document.getElementById("signed-in").hidden = false;
   document.getElementById("signed-out").hidden = true;
+  document.getElementById("username").value = window.username;
 }
 
 function onProfileLoaded() {
@@ -31,7 +32,6 @@ function onProfileLoaded() {
     showSignedInView();
     document.getElementById("profile-header-text").value = "Hello, " + window.username + "!";
   }
-   document.getElementById("username").value = window.username;
 }
 
 addEventListener("DOMContentLoaded", (event) => {onProfileLoaded();});
