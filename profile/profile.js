@@ -6,7 +6,7 @@ function handleAccountCreated() {
 }
 
 function handleUserLoggedIn() {
-  window.username = document.getElementById("username").value;
+  window.username = document.getElementById("login-username").value;
   window.location.href = "https://monster-site.github.io/profile/user.html";
   return false;
 }
