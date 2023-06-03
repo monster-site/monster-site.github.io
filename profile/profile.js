@@ -20,7 +20,7 @@ function showSignedInView() {
 function onProfileLoaded() {
   console.log("name: " + window.name);
   console.log("username: " + window.username);
-  if(!window.name && !window.username) {
+  if(!window.name) {
     return;
   }
   else if(window.name) {
