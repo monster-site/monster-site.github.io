@@ -14,7 +14,6 @@ function handleUserLoggedIn() {
 function showSignedInView() {
   document.getElementById("signed-in").hidden = false;
   document.getElementById("signed-out").hidden = true;
-  document.getElementById("username").value = window.username;
 }
 
 function logout() {
