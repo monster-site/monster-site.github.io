@@ -210,4 +210,5 @@ h2 {
     display: flex;
     justify-content: center;
     top: 50%;
+    position: absolute;
 }
