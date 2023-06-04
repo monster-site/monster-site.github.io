@@ -208,4 +208,6 @@ h2 {
 
 #details {
     justify-content: center;
+    display: flex;
+    top: 250px;
 }
