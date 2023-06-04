@@ -30,7 +30,7 @@ function loadImage(id, index, badgeId) {
 }
 
 function loadMonsterDetails() {
-
+  document.getElementById("monster-detail-image").src = data[window.index]["image"];
 }
 
 function loadShopItems() {
