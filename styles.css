@@ -182,5 +182,5 @@ h2 {
 
 #monster-details-container {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
