@@ -238,6 +238,8 @@ h2 {
 
 #details-badge-container {
     text-align: left;
+    align-items: left;
+    justify-content: left;
 }
 
 #details-badge-text {
