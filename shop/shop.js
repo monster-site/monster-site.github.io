@@ -22,6 +22,7 @@ function loadImage(id, index, badgeId) {
       window.index = index;
       console.log("index before: " + window.index);
       window.location.href = '/shop/item-detail.html';
+      return false;
     });
     const badge = document.getElementById(badgeId);
     badge.style.color = textcolor;
