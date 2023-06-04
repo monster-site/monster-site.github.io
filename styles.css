@@ -193,6 +193,7 @@ h2 {
 #monster-detail-image {
     border-radius: 36px;
     display: inline-block;
+    height: 100%;
 }
 
 #monster-details-title {
@@ -208,6 +209,6 @@ h2 {
 
 #details {
     justify-content: center;
-    display: inline-flex;
-    top: 250px;
+    display: flex;
+    height: 100%;
 }
