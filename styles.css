@@ -205,3 +205,8 @@ h2 {
     font-size: 30px;
     margin-left: 10px;
 }
+
+#details {
+    display: flex;
+    justify-content: center;
+}
