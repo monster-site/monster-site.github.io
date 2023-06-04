@@ -32,9 +32,7 @@ function onProfileLoaded() {
   }
   else {
     showSignedInView();
-    console.log(document.getElementById("profile-header-text"));
-    document.getElementById("profile-header-text").value = "Hello, " + window.name + "!";
-    console.log(document.getElementById("profile-header-text").value);
+    document.getElementById("profile-header-text").innerHTML = "Hello, " + window.name + "!";
   }
 }
 
