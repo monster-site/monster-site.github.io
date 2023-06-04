@@ -19,13 +19,18 @@ function loadImage(id, index, badgeId) {
     const element = document.getElementById(id);
     element.src = image;
     element.addEventListener('click', function (e) {
-      alert(index);
+      window.location.href = '/shop/item-detail.html';
+      window.index = index;
     });
     const badge = document.getElementById(badgeId);
     badge.style.color = textcolor;
     badge.style.backgroundColor = color;
     badge.style.borderRadius = "15px";
   });
+}
+
+function loadMonsterDetails() {
+
 }
 
 function loadShopItems() {
