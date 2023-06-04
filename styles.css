@@ -209,6 +209,4 @@ h2 {
 #details {
     display: flex;
     justify-content: center;
-    top: 50%;
-    position: absolute;
 }
