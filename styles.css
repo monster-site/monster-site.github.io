@@ -235,6 +235,11 @@ h2 {
     align-items: center;
 }
 
+
+#details-badge-container {
+    text-align: left;
+}
+
 #details-badge-text {
     font-size: 24px;
     text-align: left;
