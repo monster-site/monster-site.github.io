@@ -189,6 +189,7 @@ h2 {
 #monster-details-text-container {
     display: inline-block;
     width: 50%;
+    height: 50%;
 }
 
 #monster-detail-image {
@@ -198,12 +199,12 @@ h2 {
 
 #monster-details-title {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 35px;
     margin-left: 10px;
 }
 
 #monster-details-description {
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
