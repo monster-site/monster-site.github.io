@@ -188,12 +188,13 @@ h2 {
 
 #monster-details-text-container {
     display: inline-block;
+    width: 50%;
 }
 
 #monster-detail-image {
     border-radius: 36px;
     display: inline-block;
-    height: 100%;
+    width: 50%;
 }
 
 #monster-details-title {
