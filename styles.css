@@ -180,19 +180,20 @@ h2 {
   margin: auto;
 }
 
-#monster-details-container {
+/* #monster-details-container {
     display: flex;
     justify-content: center;
     border-radius: 72px;
     float: left;
-}
+} */
 
 #monster-details-text-container {
     float: right;
 }
 
 #monster-detail-image {
-    border-radius: 72px;
-    height: 80%;
-    margin: auto;
+    border-radius: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
