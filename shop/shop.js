@@ -30,7 +30,11 @@ function loadImage(id, index, badgeId) {
 }
 
 function loadMonsterDetails() {
-  document.getElementById("monster-detail-image").src = "../" + data[window.index]["image"];
+  int i = window.index;
+  console.log("index: " + i);
+  document.getElementById("monster-detail-image").src = data[i]["image"];
+  console.log("image" + data[i]["image"]);
+  console.log("source" + document.getElementById("monster-detail-image").src);
 }
 
 function loadShopItems() {
