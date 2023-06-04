@@ -19,8 +19,9 @@ function loadImage(id, index, badgeId) {
     const element = document.getElementById(id);
     element.src = image;
     element.addEventListener('click', function (e) {
-      window.location.href = '/shop/item-detail.html';
       window.index = index;
+      console.log("index before: " + window.index);
+      window.location.href = '/shop/item-detail.html';
     });
     const badge = document.getElementById(badgeId);
     badge.style.color = textcolor;
