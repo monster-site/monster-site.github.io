@@ -188,12 +188,10 @@ h2 {
 } */
 
 #monster-details-text-container {
-    float: right;
+    display: inline-block;
 }
 
 #monster-detail-image {
     border-radius: 36px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    display: inline-block;
 }
