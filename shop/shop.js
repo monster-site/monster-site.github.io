@@ -36,6 +36,12 @@ function loadMonsterDetails() {
   const myParam = urlParams.get('id');
   var i = myParam;
   document.getElementById("monster-detail-image").src = data[i]["image"];
+  var color = data[i]["color"];
+  var textColor = data[i]["textcolor"];
+  const badge = document.getElementById("details-badge-text");
+  badge.style.color = textColor;
+  badge.style.backgroundColor = color;
+  badge.style.borderRadius = "15px";
 }
 
 function loadShopItems() {
