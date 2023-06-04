@@ -194,3 +194,12 @@ h2 {
     border-radius: 36px;
     display: inline-block;
 }
+
+#monster-details-title {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#monster-details-description {
+    font-size: 35px;
+}
