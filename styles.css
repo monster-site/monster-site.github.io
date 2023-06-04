@@ -190,3 +190,9 @@ h2 {
 #monster-details-text-container {
     float: right;
 }
+
+#monster-detail-image {
+    border-radius: 72px;
+    height: 80%;
+    margin: auto;
+}
