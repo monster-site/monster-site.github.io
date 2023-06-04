@@ -22,7 +22,7 @@ function loadImage(id, index, badgeId) {
     element.addEventListener('click', function (e) {
       window.index = index;
       console.log("index before: " + window.index);
-      window.location.href = '/shop/item-detail.html';
+      window.location.href = '/shop/item-detail.html?' + 'id=' + index;
       return false;
     });
     const badge = document.getElementById(badgeId);
@@ -33,7 +33,9 @@ function loadImage(id, index, badgeId) {
 }
 
 function loadMonsterDetails() {
-  var i = window.index;
+  const urlParams = new URLSearchParams(window.location.search);
+  const myParam = urlParams.get('id');
+  var i = myParam;
   console.log("index: " + i);
   document.getElementById("monster-detail-image").src = data[i]["image"];
   console.log("image" + data[i]["image"]);
