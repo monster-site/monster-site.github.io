@@ -4,7 +4,7 @@
 <title>Shop</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="../styles.css">
-<body>
+<body onload="loadMonsterDetails()">
   <div id="topnav" class="topnav"> 
     <!-- <div class="branch-journeys-top" style="display:none;"></div> -->
     <a id="home" href="../index.html"><img src="../logo_monster_app.png" width="125px" height="20px"></a>
@@ -12,7 +12,7 @@
     <a id="shop" href="/shop/items.html" class="monster-site-header-button split">Shop</a>
   </div>
   <h1> Details </h1>
-  <img src="branch-logo.png">
+  <img src="branch-logo.png" id="monster-detail-image">
   <p> Description </p>
   <p> Details.................... </p>
   <button class="monster-site-button"> Add to Cart </button>
