@@ -180,12 +180,11 @@ h2 {
   margin: auto;
 }
 
-/* #monster-details-container {
+#monster-details-container {
     display: flex;
     justify-content: center;
-    border-radius: 72px;
     float: left;
-} */
+} 
 
 #monster-details-text-container {
     display: inline-block;
