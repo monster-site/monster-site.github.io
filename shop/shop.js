@@ -17,6 +17,7 @@ function loadImage(id, index, badgeId) {
   import("/shop/item.js").then((itemModule) => {
     var item = new itemModule.Item(name, image, color, textcolor);
     const element = document.getElementById(id);
+    if(!element) { return; }
     element.src = image;
     element.addEventListener('click', function (e) {
       window.index = index;
