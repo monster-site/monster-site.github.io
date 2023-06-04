@@ -197,9 +197,11 @@ h2 {
 
 #monster-details-title {
     font-weight: 600;
-    font-size: 50px;
+    font-size: 45px;
+    margin-left: 10px;
 }
 
 #monster-details-description {
-    font-size: 35px;
+    font-size: 30px;
+    margin-left: 10px;
 }
