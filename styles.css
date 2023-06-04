@@ -190,6 +190,7 @@ h2 {
     display: inline-block;
     width: 50%;
     height: 50%;
+    word-wrap: break-word;
 }
 
 #monster-detail-image {
