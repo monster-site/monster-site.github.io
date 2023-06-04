@@ -18,6 +18,7 @@ function loadImage(id, index, badgeId) {
     var item = new itemModule.Item(name, image, color, textcolor);
     const element = document.getElementById(id);
     element.src = image;
+    element.onclick = function() {alert(index);};
     const badge = document.getElementById(badgeId);
     badge.style.color = textcolor;
     badge.style.backgroundColor = color;
