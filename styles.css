@@ -182,5 +182,11 @@ h2 {
 
 #monster-details-container {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    border-radius: 72px;
+    float: left;
+}
+
+#monster-details-text-container {
+    float: right;
 }
