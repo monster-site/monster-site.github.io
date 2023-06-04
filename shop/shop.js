@@ -21,7 +21,6 @@ function loadImage(id, index, badgeId) {
     element.src = image;
     element.addEventListener('click', function (e) {
       window.index = index;
-      console.log("index before: " + window.index);
       window.location.href = '/shop/item-detail.html?' + 'id=' + index;
       return false;
     });
@@ -36,10 +35,7 @@ function loadMonsterDetails() {
   const urlParams = new URLSearchParams(window.location.search);
   const myParam = urlParams.get('id');
   var i = myParam;
-  console.log("index: " + i);
   document.getElementById("monster-detail-image").src = data[i]["image"];
-  console.log("image" + data[i]["image"]);
-  console.log("source" + document.getElementById("monster-detail-image").src);
 }
 
 function loadShopItems() {
