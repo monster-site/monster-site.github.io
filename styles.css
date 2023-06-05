@@ -246,4 +246,6 @@ h2 {
 #details-badge-text {
     font-size: 24px;
     text-align: left;
+    text-transform: uppercase;
+    padding: 10px;
 }
