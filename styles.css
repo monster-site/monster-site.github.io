@@ -184,6 +184,7 @@ h2 {
     display: flex;
     justify-content: center;
     float: left;
+    margin-right: 50px;
 } 
 
 #monster-details-text-container {
