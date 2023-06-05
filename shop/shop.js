@@ -42,7 +42,7 @@ function loadMonsterDetails() {
   const badge = document.getElementById("details-badge-text");
   badge.style.color = textColor;
   badge.style.backgroundColor = color;
-  badge.style.borderRadius = "15px";
+  badge.style.borderRadius = "48px";
   badge.align = "left";
   badge.innerHTML = text;
 }
