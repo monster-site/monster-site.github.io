@@ -248,4 +248,5 @@ h2 {
     text-align: left;
     text-transform: uppercase;
     padding: 10px;
+    display: inline;
 }
