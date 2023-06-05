@@ -231,9 +231,9 @@ h2 {
 }
 
 #detail-buttons {
-    justify-content: center;
+    justify-content: left;
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 
