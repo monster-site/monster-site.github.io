@@ -192,6 +192,7 @@ h2 {
     width: 50%;
     height: 50%;
     word-wrap: break-word;
+    text-align: left;
 }
 
 #monster-detail-image {
