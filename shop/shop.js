@@ -1,12 +1,12 @@
 const data = [
-  {name: "Monster 1", image: "A_blue.png", color: "#d8e8f6", textcolor: "#18689c", text: "travel"},
-  {name: "Monster 2", image: "B_pink.png", color: "#f0dee6", textcolor: "#9d172a", text: "retail"},
-  {name: "Monster 3", image: "C_green.png", color: "#daeae5", textcolor: "#1a6a37", text: "fintech"},
-  {name: "Monster 4", image: "D_orange.png", color: "#f2e7de", textcolor: "#90571a", text: "lifestyle"},
-  {name: "Monster 5", image: "E_teal.png", color: "#d1eff6", textcolor: "#00b4c5", text: "finance"},
-  {name: "Monster 6", image: "F_purple.png", color: "#dfd4e8", textcolor: "#80378d", text: "qsr"},
-  {name: "Monster 7", image: "G_yellow.png", color: "#f5f1df", textcolor: "#a08614", text: "entertainment"},
-  {name: "Monster 8", image: "H_red.png", color: "#e3d3d8", textcolor: "#912629", text: "ecommerce"}
+  {name: "Astrocreep", image: "A_blue.png", color: "#d8e8f6", textcolor: "#18689c", text: "travel"},
+  {name: "Starbeast", image: "B_pink.png", color: "#f0dee6", textcolor: "#9d172a", text: "retail"},
+  {name: "Cosmic Critter", image: "C_green.png", color: "#daeae5", textcolor: "#1a6a37", text: "fintech"},
+  {name: "Galaxy Gobbler", image: "D_orange.png", color: "#f2e7de", textcolor: "#90571a", text: "lifestyle"},
+  {name: "Cuddlekins", image: "E_teal.png", color: "#d1eff6", textcolor: "#00b4c5", text: "finance"},
+  {name: "Pipsqueak", image: "F_purple.png", color: "#dfd4e8", textcolor: "#80378d", text: "qsr"},
+  {name: "Snugglebug", image: "G_yellow.png", color: "#f5f1df", textcolor: "#a08614", text: "entertainment"},
+  {name: "Little Critter", image: "H_red.png", color: "#e3d3d8", textcolor: "#912629", text: "ecommerce"}
 ];
 
 function loadImage(id, index, badgeId) {
