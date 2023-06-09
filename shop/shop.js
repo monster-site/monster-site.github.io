@@ -36,6 +36,7 @@ function loadMonsterDetails() {
   const myParam = urlParams.get('id');
   var i = myParam;
   document.getElementById("monster-detail-image").src = data[i]["image"];
+  var name = data[i]["name"];
   var color = data[i]["color"];
   var textColor = data[i]["textcolor"];
   var text = data[i]["text"];
@@ -45,6 +46,7 @@ function loadMonsterDetails() {
   badge.style.borderRadius = "48px";
   badge.align = "left";
   badge.innerHTML = text;
+  document.getElementById("monster-details-title").innerHTML = name;
 }
 
 function loadShopItems() {
