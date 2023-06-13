@@ -47,6 +47,7 @@ function loadMonsterDetails() {
   badge.align = "left";
   badge.innerHTML = text;
   document.getElementById("monster-details-title").innerHTML = name;
+  onClick="trackEvent('VIEW_ITEM');
 }
 
 function loadShopItems() {
