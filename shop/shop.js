@@ -47,7 +47,7 @@ function loadMonsterDetails() {
   badge.align = "left";
   badge.innerHTML = text;
   document.getElementById("monster-details-title").innerHTML = name;
-  onClick="trackEvent('VIEW_ITEM');
+  trackEvent('VIEW_ITEM');
 }
 
 function loadShopItems() {
@@ -59,7 +59,7 @@ function loadShopItems() {
   loadImage("monster-image-6", 5, "monster-badge-6");
   loadImage("monster-image-7", 6, "monster-badge-7");
   loadImage("monster-image-8", 7, "monster-badge-8");
-  onClick="trackEvent('VIEW_ITEMS');
+  trackEvent('VIEW_ITEMS');
 }
 
 document.addEventListener("DOMContentLoaded", loadShopItems);
