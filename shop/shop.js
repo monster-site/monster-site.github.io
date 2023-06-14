@@ -59,7 +59,6 @@ function loadShopItems() {
   loadImage("monster-image-6", 5, "monster-badge-6");
   loadImage("monster-image-7", 6, "monster-badge-7");
   loadImage("monster-image-8", 7, "monster-badge-8");
-  trackEvent('VIEW_ITEMS');
 }
 
 document.addEventListener("DOMContentLoaded", loadShopItems);
