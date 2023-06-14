@@ -21,7 +21,7 @@ function logout() {
   window.name = "";
   document.getElementById("signed-in").hidden = true;
   document.getElementById("signed-out").hidden = false;
-  trackEvent("LOGOUT");
+  alert("Branch " + "LOGOUT" + " event was tracked!")
   window.location.href = "https://monster-site.github.io/profile/user.html";
   return false;
 }
