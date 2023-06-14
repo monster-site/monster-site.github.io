@@ -1,4 +1,4 @@
 function trackEvent(eventName) {
   branch.logEvent(eventName);
-  alert("Branch " + eventName + " event was tracked!");
+  setTimeout(()=>alert("Branch " + eventName + " event was tracked!"),1);
 }
