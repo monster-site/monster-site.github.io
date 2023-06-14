@@ -21,8 +21,8 @@ function logout() {
   window.name = "";
   document.getElementById("signed-in").hidden = true;
   document.getElementById("signed-out").hidden = false;
-  window.location.href = "https://monster-site.github.io/profile/user.html";
   trackEvent("LOGOUT");
+  window.location.href = "https://monster-site.github.io/profile/user.html";
   return false;
 }
 
