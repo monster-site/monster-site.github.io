@@ -1,6 +1,7 @@
 function handleAccountCreated() {
   window.name = document.getElementById("create-username").value;
   console.log("name: " + window.name);
+  alert("Branch " + "COMPLETE_REGISTRATION" + " event was tracked!")
   window.location.href = "https://monster-site.github.io/profile/user.html";
   return false;
 }
@@ -8,6 +9,7 @@ function handleAccountCreated() {
 function handleUserLoggedIn() {
   window.name = document.getElementById("login-username").value;
   console.log("name: " + window.name);
+  alert("Branch " + "LOGIN" + " event was tracked!")
   window.location.href = "https://monster-site.github.io/profile/user.html";
   return false;
 }
