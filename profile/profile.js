@@ -1,16 +1,16 @@
 function handleAccountCreated() {
   window.name = document.getElementById("create-username").value;
   console.log("name: " + window.name);
-  alert("Branch " + "COMPLETE_REGISTRATION" + " event was tracked!")
   window.location.href = "https://monster-site.github.io/profile/user.html";
+  alert("Branch " + "COMPLETE_REGISTRATION" + " event was tracked!");
   return false;
 }
 
 function handleUserLoggedIn() {
   window.name = document.getElementById("login-username").value;
   console.log("name: " + window.name);
-  alert("Branch " + "LOGIN" + " event was tracked!")
   window.location.href = "https://monster-site.github.io/profile/user.html";
+  alert("Branch " + "LOGIN" + " event was tracked!");
   return false;
 }
 
@@ -23,7 +23,7 @@ function logout() {
   window.name = "";
   document.getElementById("signed-in").hidden = true;
   document.getElementById("signed-out").hidden = false;
-  alert("Branch " + "LOGOUT" + " event was tracked!")
+  alert("Branch " + "LOGOUT" + " event was tracked!");
   window.location.href = "https://monster-site.github.io/profile/user.html";
   return false;
 }
