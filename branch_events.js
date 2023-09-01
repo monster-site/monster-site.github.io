@@ -1,7 +1,7 @@
 function trackEvent(eventName) {
   if (eventName == "ADD_TO_CART") {
     var event_and_custom_data = {
-      "currency": "USD",
+      "currency": "EUR",
       "revenue": 120.0
     };
 
