@@ -14,7 +14,7 @@ function trackEvent(eventName) {
       function(err) { console.log(err); }
     );
 
-    setTimeout(function(){alert("Branch " + eventName + " event was tracked with custom data!")},500);
+    setTimeout(function(){alert("Branch " + eventName + " event was tracked with currency and revenue data!")},500);
 
   } else {
     branch.logEvent(eventName);
