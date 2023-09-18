@@ -1,5 +1,5 @@
 function trackEvent(eventName) {
-  if (eventName == "ADD_TO_CART") {
+  if (eventName == "ADD_TO_CART" || eventName == "PURCHASE") {
     var event_and_custom_data = {
       "currency": "EUR",
       "revenue": 120.0
