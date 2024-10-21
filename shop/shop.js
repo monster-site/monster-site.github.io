@@ -21,7 +21,32 @@ function loadImage(id, index, badgeId) {
     element.src = image;
     element.addEventListener('click', function (e) {
       window.index = index;
-      window.location.href = '/shop/item-detail.html?' + 'id=' + index;
+      switch(index) {
+        case 0:
+          window.location.href = '/shop/item-detail-0.html?' + 'id=' + index;
+          break;
+        case 1:
+          window.location.href = '/shop/item-detail-1.html?' + 'id=' + index;
+          break;
+        case 2:
+          window.location.href = '/shop/item-detail-2.html?' + 'id=' + index;
+          break;
+        case 3:
+          window.location.href = '/shop/item-detail-3.html?' + 'id=' + index;
+          break;
+        case 4:
+          window.location.href = '/shop/item-detail-4.html?' + 'id=' + index;
+          break;
+        case 5:
+          window.location.href = '/shop/item-detail-5.html?' + 'id=' + index;
+          break;
+        case 6:
+          window.location.href = '/shop/item-detail-6.html?' + 'id=' + index;
+          break;
+        case 7:
+          window.location.href = '/shop/item-detail-7.html?' + 'id=' + index;
+          break;
+      }
       return false;
     });
     const badge = document.getElementById(badgeId);
