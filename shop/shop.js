@@ -40,7 +40,7 @@ function loadMonsterDetails() {
   var color = data[i]["color"];
   var textColor = data[i]["textcolor"];
   var text = data[i]["text"];
-  addOpenGraphMetaTags(data[i]["title"], data[i]["description"], data[i]["image"])
+  // addOpenGraphMetaTags(data[i]["title"], data[i]["description"], data[i]["image"])
   const badge = document.getElementById("details-badge-text");
   badge.style.color = textColor;
   badge.style.backgroundColor = color;
