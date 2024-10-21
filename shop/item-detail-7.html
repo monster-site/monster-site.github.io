@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="shop.js"></script>
+  <script src="../branch_events.js"></script>
+  <meta property="og:title" content="This Little Critter is ready to play!" />
+  <meta property="og:description" content="When your little monsters are ready to play, this Little Critter's ready to jump in and make magic happen!" />
+  <meta property="og:image" content="H_red.png" />
+  <script>
+     // load Branch
+     (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking qrCode".split(" "), 0);
+     // init Branch
+     branch.init('key_live_ewdms2cWY59SQXhvXvJM6jcmCCnO0w7Y');
+    var siteWidth = 1920;
+    var scale = screen.width /siteWidth;
+    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+   </script>
+</head>
+<body onload="loadMonsterDetails()" height="100%" width="100%">
+  <div id="topnav" class="topnav"> 
+    <!-- <div class="branch-journeys-top" style="display:none;"></div> -->
+    <a id="home" href="../index.html"><img src="../logo_monster_site.png" width="125px" height="20px"></a>
+    <a id="profile" href="/profile/user.html" class="split"><img src="../profileicon.png" width="30px" height="30px"></a>
+    <a id="shop" href="/shop/items.html" class="monster-site-header-button split">Shop</a>
+  </div>
+  <div id="details" class="center" height="100%" width="100%">
+    <div id="monster-details-container">
+    <img src="branch-logo.png" id="monster-detail-image">
+    </div>
+    <div id="monster-details-text-container">
+    <div id="details-badge-container">
+      <p id="details-badge-text" width="100%"> Text </p>
+    </div>
+    <p id="monster-details-title"> Consectetur adipiscing elit, sed ut labore </p>
+    <p id="monster-details-description">Branch provides the industry's leading mobile linking and measurement platforms, unifying user experience and attribution across devices, platforms, and channels.</p>
+    <div id="detail-buttons">
+      <button class="monster-detail-button" onClick="trackEvent('ADD_TO_CART')"> Add to cart </button>
+      <button class="monster-detail-button" onClick="trackEvent('PURCHASE')"> Buy now </button>
+      <button class="monster-detail-button" onClick="trackEvent('SHARE')" style="width:100px;"> <img src="shareicon.png"> </button>
+    </div>
+    </div>
+  </div>
+  <footer> <div class="center-text"><a id="contact-us" href="#" onClick="trackEvent('CONTACT_US')"> Contact Us </a></div></footer>
+</body>
+</html>
