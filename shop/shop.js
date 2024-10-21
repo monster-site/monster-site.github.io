@@ -21,6 +21,7 @@ function loadImage(id, index, badgeId) {
     element.src = image;
     element.addEventListener('click', function (e) {
       window.index = index;
+      console.log(index);
       window.location.href = '/shop/item-detail.html?' + 'id=' + index;
       return false;
     });
