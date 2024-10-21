@@ -1,12 +1,12 @@
 const data = [
-  {name: "Astrocreep", image: "A_blue.png", color: "#d8e8f6", textcolor: "#18689c", text: "travel", description: "When your little monsters are ready to play, this Astrocreep's ready to jump in and make magic happen!", title: "This Astrocreep is ready to play!"},
-  {name: "Starbeast", image: "B_pink.png", color: "#f0dee6", textcolor: "#9d172a", text: "retail", description: "When your little monsters are ready to play, this Starbeast's ready to jump in and make magic happen!", title: "This Starbeast is ready to play!"},
-  {name: "Cosmic Critter", image: "C_green.png", color: "#daeae5", textcolor: "#1a6a37", text: "fintech", description: "When your little monsters are ready to play, this Cosmic Critter's ready to jump in and make magic happen!", title: "This Cosmic Critter is ready to play!"},
-  {name: "Galaxy Gobbler", image: "D_orange.png", color: "#f2e7de", textcolor: "#90571a", text: "lifestyle", description: "When your little monsters are ready to play, this Galaxy Gobbler's ready to jump in and make magic happen!", title: "This Galaxy Gobbler is ready to play!"},
-  {name: "Cuddlekins", image: "E_teal.png", color: "#d1eff6", textcolor: "#00b4c5", text: "finance", description: "When your little monsters are ready to play, this Cuddlekins is ready to jump in and make magic happen!", title: "This Cuddlekins is ready to play!"},
-  {name: "Pipsqueak", image: "F_purple.png", color: "#dfd4e8", textcolor: "#80378d", text: "qsr", description: "When your little monsters are ready to play, this Pipsqueak's ready to jump in and make magic happen!", title: "This Pipsqueak is ready to play!"},
-  {name: "Snugglebug", image: "G_yellow.png", color: "#f5f1df", textcolor: "#a08614", text: "entertainment", description: "When your little monsters are ready to play, this Snugglebug's ready to jump in and make magic happen!", title: "This Snugglebug is ready to play!"},
-  {name: "Little Critter", image: "H_red.png", color: "#e3d3d8", textcolor: "#912629", text: "ecommerce", description: "When your little monsters are ready to play, this Little Critter's ready to jump in and make magic happen!", title: "This Little Critter is ready to play!"}
+  {name: "Astrocreep", image: "A_blue.png", color: "#d8e8f6", textcolor: "#18689c", text: "travel"},
+  {name: "Starbeast", image: "B_pink.png", color: "#f0dee6", textcolor: "#9d172a", text: "retail"},
+  {name: "Cosmic Critter", image: "C_green.png", color: "#daeae5", textcolor: "#1a6a37", text: "fintech"},
+  {name: "Galaxy Gobbler", image: "D_orange.png", color: "#f2e7de", textcolor: "#90571a", text: "lifestyle"},
+  {name: "Cuddlekins", image: "E_teal.png", color: "#d1eff6", textcolor: "#00b4c5", text: "finance"},
+  {name: "Pipsqueak", image: "F_purple.png", color: "#dfd4e8", textcolor: "#80378d", text: "qsr"},
+  {name: "Snugglebug", image: "G_yellow.png", color: "#f5f1df", textcolor: "#a08614", text: "entertainment"},
+  {name: "Little Critter", image: "H_red.png", color: "#e3d3d8", textcolor: "#912629", text: "ecommerce"}
 ];
 
 function loadImage(id, index, badgeId) {
@@ -21,7 +21,6 @@ function loadImage(id, index, badgeId) {
     element.src = image;
     element.addEventListener('click', function (e) {
       window.index = index;
-      console.log(index);
       window.location.href = '/shop/item-detail.html?' + 'id=' + index;
       return false;
     });
@@ -41,7 +40,6 @@ function loadMonsterDetails() {
   var color = data[i]["color"];
   var textColor = data[i]["textcolor"];
   var text = data[i]["text"];
-  // addOpenGraphMetaTags(data[i]["title"], data[i]["description"], data[i]["image"])
   const badge = document.getElementById("details-badge-text");
   badge.style.color = textColor;
   badge.style.backgroundColor = color;
@@ -50,25 +48,6 @@ function loadMonsterDetails() {
   badge.innerHTML = text;
   document.getElementById("monster-details-title").innerHTML = name;
   trackEvent('VIEW_ITEM');
-}
-
-function addOpenGraphMetaTags(title, description, image) {
-  const ogTitle = document.createElement('meta');
-  ogTitle.setAttribute('property', 'og:title');
-  ogTitle.setAttribute('content', title);
-
-  const ogDescription = document.createElement('meta');
-  ogDescription.setAttribute('property', 'og:description');
-  ogDescription.setAttribute('content', description);
-
-  const ogImage = document.createElement('meta');
-  ogImage.setAttribute('property', 'og:image');
-  ogImage.setAttribute('content', image);
-
-  const head = document.getElementsByTagName('head')[0];
-  head.appendChild(ogTitle);
-  head.appendChild(ogDescription);
-  head.appendChild(ogImage);
 }
 
 function loadShopItems() {
