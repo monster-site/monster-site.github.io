@@ -40,6 +40,7 @@ function loadMonsterDetails() {
   var color = data[i]["color"];
   var textColor = data[i]["textcolor"];
   var text = data[i]["text"];
+  addOpenGraphMetaTags(data[i]["title"], data[i]["description"], data[i]["image"])
   const badge = document.getElementById("details-badge-text");
   badge.style.color = textColor;
   badge.style.backgroundColor = color;
@@ -48,6 +49,25 @@ function loadMonsterDetails() {
   badge.innerHTML = text;
   document.getElementById("monster-details-title").innerHTML = name;
   trackEvent('VIEW_ITEM');
+}
+
+function addOpenGraphMetaTags(title, description, image) {
+  const ogTitle = document.createElement('meta');
+  ogTitle.setAttribute('property', 'og:title');
+  ogTitle.setAttribute('content', title);
+
+  const ogDescription = document.createElement('meta');
+  ogDescription.setAttribute('property', 'og:description');
+  ogDescription.setAttribute('content', description);
+
+  const ogImage = document.createElement('meta');
+  ogImage.setAttribute('property', 'og:image');
+  ogImage.setAttribute('content', image);
+
+  const head = document.getElementsByTagName('head')[0];
+  head.appendChild(ogTitle);
+  head.appendChild(ogDescription);
+  head.appendChild(ogImage);
 }
 
 function loadShopItems() {
