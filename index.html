@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Branch Monster Site</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-  <script src="branch_events.js"></script>
-  <script>
-     // load Branch
-     (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking qrCode".split(" "), 0);
-     // init Branch
-     branch.init('key_live_ewdms2cWY59SQXhvXvJM6jcmCCnO0w7Y');
-    //var siteWidth = 1920;
-    //var scale = screen.width /siteWidth;
-    //document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
-   </script>
+  <meta charset="UTF-8">
+  <title>Branch Monster Site</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <script src="branch_events.js"></script>
+  <script>
+     // load Branch
+     (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking qrCode".split(" "), 0);
+     // init Branch
+     branch.init('key_live_ewdms2cWY59SQXhvXvJM6jcmCCnO0w7Y');
+    // 💡 REMOVED/COMMENTED OUT: The following lines attempt to manually override the scale, which can break responsiveness.
+    //var siteWidth = 1920;
+    //var scale = screen.width /siteWidth;
+    //document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+   </script>
 </head>
 <body>
-  <div id="topnav" class="topnav"> 
-    <!-- <div class="branch-journeys-top" style="display:none;"></div> -->
-    <a id="home" href="index.html"><img src="logo_monster_site.png" width="100em" height="50em"></a>
-    <a id="profile" href="/profile/user.html" class="split"><img src="profileicon.png" width="5%" height="5%"></a>
-    <a id="refer" href="/profile/refer.html" class="monster-site-header-button split">Refer</a>
-    <a id="shop" href="/shop/items.html" class="monster-site-header-button split">Shop</a>
-  </div>
-  <div class="left">
-  <h1 id="home-title-text"> Branch University MonsterSite </h1>
-  <p id="home-description-text"> Monsters of every type to delight and cause a smile. </p>
-  </div>
-  <div class="right">
-  <img src="qr_code.png" id="qr-code">
-  </div>
-  <footer><div class="center-text"><a id="contact-us" href="#" onClick="trackEvent('CONTACT_US')"> Contact Us </a></div></footer>
+  <div id="topnav" class="topnav"> 
+            <a id="home" href="index.html"><img src="logo_monster_site.png" style="max-width: 100px; height: auto;"></a>
+    <a id="profile" href="/profile/user.html" class="split"><img src="profileicon.png" style="max-width: 50px; height: auto;"></a>
+    <a id="refer" href="/profile/refer.html" class="monster-site-header-button split">Refer</a>
+    <a id="shop" href="/shop/items.html" class="monster-site-header-button split">Shop</a>
+  </div>
+  <div class="left">
+  <h1 id="home-title-text"> Branch University MonsterSite </h1>
+  <p id="home-description-text"> Monsters of every type to delight and cause a smile. </p>
+  </div>
+  <div class="right">
+  <img src="qr_code.png" id="qr-code" style="max-width: 100%; height: auto;">
+  </div>
+  <footer><div class="center-text"><a id="contact-us" href="#" onClick="trackEvent('CONTACT_US')"> Contact Us </a></div></footer>
 </body>
 </html>
