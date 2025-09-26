@@ -96,10 +96,10 @@ a {
 }
 
 .monster-site-header-button {
-    height:25px;
-    width:110px;
+    height:5%;
+    width:7%;
     font-size: 1.5em;
-    border-radius: 50px;
+    border-radius: 2%;
     background-color: #00B4C4;
     color: white;
     border: none;
@@ -107,7 +107,7 @@ a {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 10%;
 }
 
 #home-title-text {
