@@ -16,7 +16,7 @@
     
     /* Add padding/height for aesthetics (optional) */
     height: 60px; /* Example fixed height */
-    column-gap: 20px;
+    column-gap: 10px;
 }
 
 #topnav a {
