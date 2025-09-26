@@ -96,8 +96,8 @@ a {
 }
 
 .monster-site-header-button {
-    height:5%;
-    width:7%;
+    height:auto;
+    width:100px;
     font-size: 1.5em;
     border-radius: 2%;
     background-color: #00B4C4;
