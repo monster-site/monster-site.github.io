@@ -110,17 +110,35 @@ h2 {
   font-size: 10%;
 }
 
+/* --- Default (Desktop/Larger Screen) Styles --- */
 #home-title-text {
-    font-size: 72px;
-    text-align: left;
-    margin-left: 50px;
-    margin-top: 300px;
+    font-size: 4.5rem; /* Large size for desktop */
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 300px; /* Large space on desktop */
 }
 
 #home-description-text {
-    font-size: 25px;
-    text-align: left;
-    margin-left: 50px;
+    font-size: 1.56rem;
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+/* --- Mobile Styles (Applied when screen width is 600px or less) --- */
+@media (max-width: 600px) {
+    #home-title-text {
+        font-size: 2rem; /* Much smaller font size for mobile */
+        margin-left: 15px; /* Reduce horizontal margin */
+        margin-top: 50px; /* Reduce large top margin */
+        text-align: center; /* Optional: Center text on mobile */
+    }
+
+    #home-description-text {
+        font-size: 1rem; /* Smaller font size for mobile */
+        margin-left: 15px; /* Reduce horizontal margin */
+        text-align: center; /* Optional: Center text on mobile */
+    }
 }
 
 .monster-image {
