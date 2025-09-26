@@ -4,17 +4,29 @@
     overflow: hidden;
 }
 
-.topnav a {
-    float: left;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    margin-left: 25px;
+#topnav, .topnav {
+    /* 1. Enable Flexbox for horizontal arrangement */
+    display: flex; 
+    
+    /* 2. Vertically align all items in the center */
+    align-items: center; 
+    
+    /* 3. Distribute space between elements (adjust as needed) */
+    justify-content: space-between; 
+    
+    /* Add padding/height for aesthetics (optional) */
+    height: 60px; /* Example fixed height */
+    padding: 0 20px;
 }
 
-.topnav a.split {
-  float: right;
+#topnav a {
+    display: flex;
+    align-items: center;
 }
+
+/* .topnav a.split {
+  float: right;
+} */
 
 h1 {
     text-align: center;
