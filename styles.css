@@ -12,7 +12,7 @@
     align-items: center; 
     
     /* 3. Distribute space between elements (adjust as needed) */
-    justify-content: space-between; 
+    justify-content: space-evenly; 
     
     /* Add padding/height for aesthetics (optional) */
     height: 60px; /* Example fixed height */
