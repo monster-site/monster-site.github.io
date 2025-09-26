@@ -108,26 +108,18 @@ a {
 }
 
 .monster-site-header-button {
-    /* Decreased height and width slightly for a smaller button */
     height: 36px;
     width: 250px; 
-    
-    /* Decreased font size for smaller text */
-    font-size: 1.1em; /* Reduced from 1.5em */
-    
-    /* Rounded corners */
-    border-radius: 8px; /* Changed from 50px for a less pill-shaped, more standard rounded corner */
-    
-    background-color: #00B4C4;
-    color: white;
+    font-size: 1.1em;
+    border-radius: 8px; 
+    background-color: #00B4C4; /* This creates the blue background */
+    color: white; /* This makes the text white */
     border: none;
-    
-    /* Optional: Add padding for better text alignment */
-    padding: 0 15px;
-    /* Optional: Ensure text lines up correctly inside the button */
-    display: flex; 
-    align-items: center;
-    justify-content: center;
+    /* Also ensure the links behave like blocks for width/height to work */
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Removes the default underline */
 }
 
 h2 {
