@@ -180,7 +180,7 @@ h2 {
     float: left;
 }
 
-.right {
+/* .right {
     float: right;
     margin-right: 100px;
     margin-top: 150px;
@@ -196,6 +196,27 @@ h2 {
   width: 80%;
   height: 80%;
   margin: auto;
+} */
+/* Default Desktop Styles (assuming .right is a column) */
+.right {
+  width: 40%;
+  float: right;
+}
+
+/* Mobile-Specific Overrides */
+@media (max-width: 600px) {
+  .right {
+    width: 100%; /* Full width on mobile */
+    float: none; /* Stacks correctly */
+    text-align: center; /* Center content */
+    padding: 20px 0; /* Add some breathing room */
+  }
+
+  #qr-code {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 200px; /* Optional: Constrain the size on mobile */
+  }
 }
 
 #monster-details-container {
