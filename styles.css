@@ -284,10 +284,14 @@ h2 {
 }
 
 #detail-buttons {
-    justify-content: left;
-    align-items: left;
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
 }
 
+.monster-detail-button.split {
+    flex-grow: 1;
+}
 
 #details-badge-container {
     text-align: left;
