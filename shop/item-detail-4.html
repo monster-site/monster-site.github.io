@@ -15,19 +15,15 @@
      (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking qrCode".split(" "), 0);
      // init Branch
      branch.init('key_live_ewdms2cWY59SQXhvXvJM6jcmCCnO0w7Y');
-    var siteWidth = 1920;
-    var scale = screen.width /siteWidth;
-    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
    </script>
 </head>
 <body onload="loadMonsterDetails()" height="100%" width="100%">
-  <div id="topnav" class="topnav"> 
-    <!-- <div class="branch-journeys-top" style="display:none;"></div> -->
-    <a id="home" href="../index.html"><img src="../logo_monster_site.png" width="125px" height="20px"></a>
-    <a id="profile" href="/profile/user.html" class="split"><img src="../profileicon.png" width="30px" height="30px"></a>
-    <a id="refer" href="/profile/refer.html" class="monster-site-header-button split">Refer</a>
-    <a id="shop" href="/shop/items.html" class="monster-site-header-button split">Shop</a>
-  </div>
+  <div id="topnav" class="topnav"> 
+    <a id="home" href="/index.html"><img src="../logo_monster_site.png" style="max-width: 120px; height: auto;"></a>
+    <a id="refer" href="/profile/refer.html" class="monster-site-header-button split">Refer</a>
+    <a id="shop" href="/shop/items.html" class="monster-site-header-button split">Shop</a>
+    <a id="profile" href="/profile/user.html" class="split"><img src="../profileicon.png" style="max-width: 30px; height: auto;"></a>
+  </div>
   <div id="details" class="center" height="100%" width="100%">
     <div id="monster-details-container">
     <img src="branch-logo.png" id="monster-detail-image">
