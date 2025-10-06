@@ -111,11 +111,13 @@ a {
     height:auto;
     width:120px;
     font-size: 1em;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: #00B4C4;
     color: white;
     border: none;
-    text-align: center;
+    display: flex;          
+    justify-content: center;   
+    align-items: center;
     padding: 5px;
 }
 
