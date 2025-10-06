@@ -233,7 +233,7 @@ h2 {
   }
 }
 
-#monster-details-container {
+/* #monster-details-container {
     display: flex;
     justify-content: center;
     float: left;
@@ -245,11 +245,11 @@ h2 {
     height: 50%;
     word-wrap: break-word;
     text-align: left;
-}
+} */
 
 #monster-detail-image {
     border-radius: 36px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 #monster-details-title {
