@@ -263,13 +263,13 @@ h2 {
     margin-left: 10px;
 }
 
-#details {
-    /* justify-content: center;
+/* #details {
+    justify-content: center;
     display: flex;
     height: 100%;
-    align-items: center; */
+    align-items: center; 
     margin-top: 35%;
-}
+} */
 
 .monster-detail-button {
     font-size: 1em;
