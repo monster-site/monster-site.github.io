@@ -57,7 +57,7 @@ label {
 body {
   font-size: 100%;
   background-color: #323437;
-  font-family: 'Raleway';
+  font-family: Raleway, sans-serif;
 }
 
 .monster-site-button {
