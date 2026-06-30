@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900');
 
+@font-face {
+    font-family: 'TT_Hoves_Pro_Bold';
+    src: url('../fonts/TT_Hoves_Pro_Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT_Hoves_Pro_Regular';
+    src: url('../fonts/TT_Hoves_Pro_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT_Hoves_Thin';
+    src: url('../fonts/TT_Hoves_Pro_Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .topnav {
     overflow: hidden;
 }
