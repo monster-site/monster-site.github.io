@@ -53,6 +53,7 @@ h1 {
     text-align: center;
     font-size: 3em;
     color: #FFFFFF;
+    font-family: 'TT_Hoves_Pro_Bold', sans-serif;
 }
 
 footer {
@@ -60,6 +61,7 @@ footer {
     position: absolute;
     text-align: center;
     width: 100%;
+    font-family: 'TT_Hoves_Pro_Thin', sans-serif;
 }
 
 .center { 
@@ -73,12 +75,13 @@ label {
     text-align: center;
     font-size: 1.5em;
     color: #FFFFFF;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 body {
   font-size: 100%;
   background-color: #323437;
-  font-family: Raleway, sans-serif;
+  font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 .monster-site-button {
@@ -89,6 +92,7 @@ body {
     background-color: #8A3FFC;
     color: white;
     border: none;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 .monster-site-input-field {
@@ -100,16 +104,19 @@ body {
     font-size: 2em;
     border-radius: 8px;
     border-color: #d3d3d3;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 #forgot-password {
     text-align: center;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 a {
     font-size: 25px;
     text-decoration:none;
     color: #8A3FFC;
+    font-family: 'TT_Hoves_Pro_Thin', sans-serif;
 }
 
 .monster-image {
@@ -121,11 +128,13 @@ a {
 
 .center-text {
     text-align: center;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 #contact-us {
     font-size: 15px;
     color: #FFFFFF;
+    font-family: 'TT_Hoves_Pro_Thin', sans-serif;
 }
 
 #profile-image {
@@ -145,11 +154,13 @@ a {
     justify-content: center;   
     align-items: center;
     padding: 5px;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 h2 {
     font-size: 10%;
     color: #FFFFFF;
+    font-family: 'TT_Hoves_Pro_Bold', sans-serif;
 }
 
 /* --- Default (Desktop/Larger Screen) Styles --- */
@@ -159,6 +170,7 @@ h2 {
     margin-left: 50px;
     margin-top: 300px; /* Large space on desktop */
     color: #FFFFFF;
+    font-family: 'TT_Hoves_Pro_Bold', sans-serif;
 }
 
 #home-description-text {
@@ -166,6 +178,7 @@ h2 {
     text-align: left;
     margin-left: 50px;
     color: #FFFFFF;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 
@@ -177,6 +190,7 @@ h2 {
         margin-top: 50px; /* Reduce large top margin */
         text-align: center; /* Optional: Center text on mobile */
         color: #FFFFFF;
+        font-family: 'TT_Hoves_Pro_Bold', sans-serif;
     }
 
     #home-description-text {
@@ -184,6 +198,7 @@ h2 {
         margin-left: 15px; /* Reduce horizontal margin */
         text-align: center; /* Optional: Center text on mobile */
         color: #FFFFFF;
+        font-family: 'TT_Hoves_Pro_Regular', sans-serif;
     }
 }
 
@@ -200,6 +215,7 @@ h2 {
     font-size: 12px;
     display: inline;
     padding: 5px;
+    font-family: 'TT_Hoves_Pro_Thin', sans-serif;
 }
 
 .monster-title {
@@ -208,6 +224,7 @@ h2 {
     font-size: 18px;
     font-weight: 600;
     color: #FFFFFF;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 .monster-description {
@@ -215,6 +232,7 @@ h2 {
     margin-left: 50px;
     font-size: 15px;
     color: #FFFFFF;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 .monster {
@@ -291,16 +309,19 @@ h2 {
     font-size: 35px;
     margin-left: 10px;
     color: #FFFFFF;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 #monster-details-description {
     font-size: 20px;
     margin-left: 10px;
     color: #FFFFFF;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 p {
     color: #FFFFFF;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 /* #details {
@@ -321,6 +342,7 @@ p {
     width:200px;
     margin-left: 5px;
     margin-right: 5px;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 #detail-buttons {
@@ -337,6 +359,7 @@ p {
     text-align: left;
     align-items: left;
     justify-content: left;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
 
 #details-badge-text {
@@ -345,4 +368,5 @@ p {
     text-transform: uppercase;
     padding: 10px;
     display: inline;
+    font-family: 'TT_Hoves_Pro_Regular', sans-serif;
 }
